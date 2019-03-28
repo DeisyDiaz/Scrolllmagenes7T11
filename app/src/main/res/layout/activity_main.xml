@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="130dp"
+        android:layout_height="140dp"
+        app:srcCompat="@mipmap/tics"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="305dp"
+        android:layout_height="202dp"
+        app:srcCompat="@mipmap/tics"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="155dp"
+        android:layout_height="150dp"
+        app:srcCompat="@mipmap/tics"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="187dp"
+        android:layout_height="33dp"
+        android:fontFamily="casual"
+        android:text="Libreria de Imagenes"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Presioname "
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+</android.support.constraint.ConstraintLayout>
